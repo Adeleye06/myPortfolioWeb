@@ -23,10 +23,13 @@
             <h3>GET IN TOUCH</h3>
             <!-- Honeypot -->
             <input type="text" name="_honey" style="display: none">
-
             <!-- Disable Captcha -->
             <input type="hidden" name="_captcha" value="false">
+            <!-- redirect page -->
+            <input type="hidden" name="_next" value="http://localhost:3000/about">
+            <!-- email subject name -->
             <input type="hidden" name="_subject" value="Portfolio Contact Form Submission!">
+            
             <input type="text" id="name" name="name" placeholder="Your Name" required>
             <input type="email" id="email" name="email" placeholder="Email" required>
             <input type="text" id="phone" name="phone" placeholder="Phone No." required>
